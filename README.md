@@ -1,20 +1,33 @@
-## Background & Objectives
+## Bootstrap classes
 
-A challenge to get you familiar with Bootstrap CSS classes:
+Get familiar with Bootstrap CSS classes:
 
 - utilities classes (`.text-center`, `.list-inline`, etc..)
 - UI components classes (`.btn-primary`, `.form-inline`, etc..)
 
-## Specs
 
-In this challenge, reproduce [this page](http://lewagon.github.io/bootstrap-challenges/03-bootstrap-mockup-v1/) by using Bootstrap classes as much as possible. Every time you need to style something, look in the Bootstrap documentation if there is a class for that. Here are some instructions to help you in this challenge:
+Integrate all these Bootstrap classes on `index.html` page
 
-1. For the banner, feature section and footer, you will have to write a bit of personal CSS. In fact, there is no Bootstrap class for image backgrounds, or for custom color backgrounds.
-1. The [Bootsrap navbar code](http://getbootstrap.com/components/#navbar-default) given in the official documentation is a bit too complicated and not very convenient (their brand is not an image but just a text..). Use [our own navbar code](https://github.com/lewagon/awesome-navbars/blob/master/templates/_navbar.html) which is much better!
 
-## Tips & Resources
+## Responsive grid
 
-- Start by building your graphical elements (SVG icons, background image) before coding. You can find nice background images on [thestocks](http://thestocks.im/)). For picking nice SVG icons, [NounProject](http://thenounproject.com/) and [IconMelon](http://iconmelon.com/) are good options. Don't hesitate to modify a bit the SVG icons with Sketch to add your own flavor.
+Improve your page using Bootstrap grid to get [this final result](http://lewagon.github.io/bootstrap-challenges/04-bootstrap-mockup-v2/).
+
+- Alway start coding your grid **without content**, and insert your content in the `.col` **as a second step**.
+
+```html
+<!-- Example of pure grid code without content -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6"></div>
+    <div class="col-xs-12 col-sm-6"></div>
+    <div class="col-xs-12 col-sm-6"></div>
+    <div class="col-xs-12 col-sm-6"></div>
+  </div>
+</div>
+```
+
+## Tips: map
 
 - For the map section, the code is a bit complicated since it uses a bit of javascript. Here it is:
 
