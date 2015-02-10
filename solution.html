@@ -34,7 +34,7 @@
           <p>Turn your pen into you best friend</p>
           <p>Make every line you write count..</p>
           <br>
-          <a href="" class="btn btn-primary btn-lg">GET YOUR STYLUS</a>
+          <a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#order-form">GET YOUR STYLUS</a>
         </div>
         <div class="col-xs-6"></div>
       </div>
@@ -109,7 +109,7 @@
   <div id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-4">
+        <div class="col-xs-6">
           <ul class="list-inline">
             <li><a href=""><i class="fa fa-youtube"></i></a></li>
             <li><a href=""><i class="fa fa-instagram"></i></a></li>
@@ -117,12 +117,28 @@
             <li><a href=""><i class="fa fa-twitter"></i></a></li>
           </ul>
         </div>
-        <div class="col-xs-8 text-right">
+        <div class="col-xs-6 text-right">
           <p>Stylus is a fictive product by LeWagon</p>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Order modal -->
+  <div class="modal fade" id="order-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Order</h4>
+        </div>
+        <div class="modal-body">
+          TODO: insert your Wufoo form here
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
